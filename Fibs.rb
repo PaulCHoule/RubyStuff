@@ -12,8 +12,7 @@ current_number, next_number = 0,1
 	   		    if previous_number == 0
 	   		    	fibonacci_numbers << 
 	   		        "F(#{previous_number},#{current_number}) = #{next_number}"
-	   		    end
-	   		    
+	   		    end	   		   
 	        end
 	    end  
 	end
