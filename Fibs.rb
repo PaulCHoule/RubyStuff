@@ -2,7 +2,7 @@ fibonacci_numbers = []
 current_number, next_number,fibonacci_number = 0,1,0
 
 	(1000).times do 
-		unless next_number > 1000
+	   unless next_number > 1000
 	    
 	    	if current_number == 0
 	       		fibonacci_number += 1
