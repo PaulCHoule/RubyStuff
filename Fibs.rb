@@ -14,8 +14,8 @@ current_number, next_number,fibonacci_number = 0,1,0
 
 	    	unless next_number > 1000
 	        	fibonacci_number += 1
-	   		    fibonacci_numbers << 
-	   		    "F(#{fibonacci_number}) = #{next_number}"	   		    	   
+	   		fibonacci_numbers << 
+	   		"F(#{fibonacci_number}) = #{next_number}"	   		    	   
 	        end
 	    end  
 	end
