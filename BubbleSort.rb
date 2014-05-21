@@ -1,18 +1,19 @@
 def bubble_sorter(array_to_sort)
-	sorted = false
+sorted = false
 	
-	until sorted do
-		sorted = true	
-		(0...array_to_sort.length-1).each do |value|		
+  until sorted do
+    
+    sorted = true	
+    (0...array_to_sort.length-1).each do |value|		
 			  
-			current_value = array_to_sort[value]
-			next_value = array_to_sort[value+1]
+      current_value = array_to_sort[value]
+      next_value = array_to_sort[value+1]
 
-			if current_value > next_value
-				array_to_sort[value] = next_value
-				array_to_sort[value+1] = current_value
-				sorted = false
-			end		    	
+      if current_value > next_value
+        array_to_sort[value] = next_value
+        array_to_sort[value+1] = current_value
+        sorted = false
+      end		    	
     end	
   end
 end
