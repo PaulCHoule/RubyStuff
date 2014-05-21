@@ -13,8 +13,8 @@ def bubble_sorter(array_to_sort)
 				array_to_sort[value+1] = current_value
 				sorted = false
 			end		    	
-        end	
-    end
+    end	
+  end
 end
 
 numbers = [45,5,23,4,12,6,13,13,13]
