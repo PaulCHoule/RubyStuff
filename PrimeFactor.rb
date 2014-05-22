@@ -1,5 +1,6 @@
 def prime_factor(number_to_factor)
   divisor = 2
+  
   until divisor > number_to_factor do
 
     if number_to_factor % divisor == 0
@@ -9,7 +10,7 @@ def prime_factor(number_to_factor)
     else
       divisor += 1
     end
-    
+
   end
 
   return largest_prime_factor
